@@ -16,3 +16,6 @@ The dataset consists of 28754 reviews. The data pipeline includes the following 
 Classification performed by a simple **Multinomial Naive Bayes** classifier on the TF-IDF text representation of each review.
 
 **Weighted F1 score** on the test set: **0.967**
+
+## User guide
+TODO
