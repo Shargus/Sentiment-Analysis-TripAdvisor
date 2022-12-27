@@ -4,7 +4,7 @@ Final project for the Data Science Lab exam
 
 In this project, a **sentiment analysis** task is carried out. A binary classification pipeline is implemented, to detect whether a certain **TripAdvisor textual review** is a "positive review" or a "negative review".
 
-The dataset consists of 28754 reviews. The data pipeline includes the following preprocessing steps:
+The development dataset consists of 28754 reviews. The data pipeline includes the following preprocessing steps:
 * Removal of non-alphanumeric characters, tokenization, case normalization, stop-words removal (data cleaning & reformatting)
 * Stemming (through an Italian-based stemming algorithm)
 * Bigrams extraction
@@ -15,8 +15,9 @@ The dataset consists of 28754 reviews. The data pipeline includes the following 
 
 Classification performed by a simple **Multinomial Naive Bayes** classifier on the TF-IDF text representation of each review.
 
-Achieved **Weighted F1 score** on the test set: **0.967**
+Achieved **Weighted F1 score** on the evaluation test set: **0.967**
 
 ## User guide
-**classification.py**: project code
-**Report.pdf**: final report describing the proposed solution (\w results)
+- **classification.py**: project code
+- **Report.pdf**: final report describing the proposed solution (\w results)
+- **dataset**: contains the two datasets (development and evaluation)
